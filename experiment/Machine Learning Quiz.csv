@@ -1,6 +1,6 @@
 MCQ,Choices,Correct
-Who coined the term machine learning in 1959?,a: Donald Hebb | b: Raytheon Company | c: Arthur Samuel | d: Tom M. Mitchell,c
-What was the name of the experimental 'learning machine' developed by Raytheon Company in the early 1960s?,a: Cyberdyne | b: Cybertron | c: Cybernet | d: Cyberware,b
-Who proposed the early mathematical models of neural networks in machine learning?,a: Walter Pitts | b: Warren McCulloch | c: Donald Hebb | d: Arthur Samuel,a
-What did Tom M. Mitchell define as the tasks in which machine learning is concerned?,"a: Cognitive processes | b: Experience, tasks, and performance measure | c: Pattern recognition | d: Neural structure",b
-What are the two objectives of modern-day machine learning?,a: To develop new algorithms and models | b: To classify data and make predictions | c: To study human cognitive processes | d: To analyze sonar signals and speech patterns,b
+Who coined the term machine learning in 1959?,a: Donald Hebb | b: Tom M. Mitchell | c: Arthur Samuel | d: Walter Pitts,c
+What was the earliest machine learning model introduced by Arthur Samuel in the 1950s?,a: Program for calculating winning chance in checkers | b: Program for analyzing sonar signals | c: Program for recognizing speech patterns | d: Program for classifying data,a
+Who proposed the early mathematical models of neural networks for machine learning algorithms?,a: Warren McCulloch | b: Tom M. Mitchell | c: Donald Hebb | d: Walter Pitts,a
+What is the main objective of modern-day machine learning?,a: To confuse data based on models | b: To make predictions for past outcomes | c: To classify data and make predictions for future outcomes | d: To create complex algorithms,c
+"According to Tom M. Mitchell, when does a computer program learn from experience?",a: When its performance at tasks in T decreases | b: When its performance at tasks in T remains the same | c: When its performance at tasks in T improves | d: When its performance at tasks in T is unknown,c
