@@ -20,3 +20,5 @@ logging.basicConfig(level=logging.INFO,
         filename=LOG_FILEPATH,
         format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s"
 )
+
+# To call import this file and logging.info("Hi, I'm going to start my execution...")
