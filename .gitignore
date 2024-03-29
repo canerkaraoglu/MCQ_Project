@@ -1,2 +1,4 @@
 env
 .env
+src/mcq_project/__pycache__/
+src/__pycache__/
