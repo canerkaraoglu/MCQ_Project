@@ -47,10 +47,6 @@ This project is a Multiple Choice Question (MCQ) quiz generator developed using 
 
 Contributions are welcome! If you want to contribute to this project, feel free to submit a pull request. Please ensure that any changes are in line with the project's coding standards and practices.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - Special thanks to the developers and contributors of Python, OpenAI, LangChain, and AWS for their fantastic tools and technologies.
