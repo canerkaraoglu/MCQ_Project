@@ -11,7 +11,7 @@ from src.mcq_project.MCQGenerator import generate_evaluate_chain
 from src.mcq_project.logger import logging
 
 # Load the response JSON
-with open(r"C:\Users\caner\Desktop\MCQ_Project\Response.json", "r") as f:
+with open("./Response.json", "r") as f:
     RESPONSE_JSON = json.load(f)
 
 # Create the title of the web app
