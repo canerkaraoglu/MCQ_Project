@@ -16,6 +16,12 @@ with open("./Response.json", "r") as f:
 
 # Create the title of the web app
 st.title(" Multiple Choice Quiz (MCQ) Generation and Evaluation with LangChain ⛓️⛓️")
+@st.cache_data
+def convert_df(df):
+    # IMPORTANT: Cache the conversion to prevent computation on every rerun
+    return df.to_csv().encode('utf-8')
+
+output = pd.DataFrame()
 
 # Create a form using st.form
 with st.form(key="user_inputs"):
@@ -78,7 +84,20 @@ with st.form(key="user_inputs"):
                             st.table(df)
                             st.text_area(label="Review", value=response["review"])
                             st.success("MCQs generated successfully.")
+                            output = df.copy()
+                            
                         else:
                             st.error("Error in generating the MCQs.")
                 else:
                     st.write(response)
+
+# Check if the data frame is not empty
+if not output.empty:
+    # Create a download button
+    csv = convert_df(output)
+    st.download_button(
+        label="Download CSV",
+        data=csv,
+        file_name="mcq_data.csv",
+        mime="text/csv"
+    )
