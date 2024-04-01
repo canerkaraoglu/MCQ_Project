@@ -22,7 +22,7 @@ This project is a Multiple Choice Question (MCQ) quiz generator developed using 
 1. Clone the repository:
 
     ```
-    git clone https://github.com/yourusername/mcq-quiz-generator.git
+    git@github.com:theVirus94/MCQ_Project.git
     ```
 
 2. Install dependencies:
@@ -35,10 +35,10 @@ This project is a Multiple Choice Question (MCQ) quiz generator developed using 
 
 ## Usage
 
-1. Run the Python script to start the quiz generator:
+1. Run the Python script to start the quiz generator using Streamlit:
 
     ```
-    python quiz_generator.py
+    streamlit tun StreamlitAPP.py
     ```
 
 2. Follow the on-screen prompts to generate and take the quiz.
